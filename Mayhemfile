@@ -1,0 +1,9 @@
+project: rnshah9/spin
+target: spin
+image: ghcr.io/rnshah9/playground:spin
+tests:
+  - file://Examples/hello.pml
+
+cmds:
+  - cmd: /repo/Src/spin @@
+    filepath: /test.pml
